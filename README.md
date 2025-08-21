@@ -31,6 +31,8 @@ Special ligature sequences automatically replace standard glyphs:
 - `[WALL]`
 - `[READ]`
 
+
+![TEN BULLETS](documentation/img/2x/ten-bullets@2x.png)
 ### Bullet Points
 The font includes 10 bullet points (•) because of course there are.
 - **macOS**: Option + 8
@@ -121,6 +123,8 @@ This font is released under the [SIL Open Font License 1.1](https://scripts.sil.
 This font pays homage to Tom Sachs' distinctive handwriting style, capturing the raw energy and purposeful imperfection that characterizes his artistic practice. Perfect for projects that need an authentic, handcrafted aesthetic.
 
 ---
+
+![OUTPUT BEFORE INPUT](documentation/img/2x/OBI@2x.png)
 
 *For ISRU summercamp and all your space program typography needs.*
 
