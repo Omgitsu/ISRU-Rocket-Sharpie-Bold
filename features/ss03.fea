@@ -1,0 +1,43 @@
+feature ss03 {
+# Stylistic Set 03
+
+#> feature
+  sub a by a.ss03;
+  sub b by b.ss03;
+  sub bullet by bullet.ss03;
+  sub c by c.ss03;
+  sub d by d.ss03;
+  sub e by e.ss03;
+  sub eight by eight.ss03;
+  sub f by f.ss03;
+  sub five by five.ss03;
+  sub four by four.ss03;
+  sub g by g.ss03;
+  sub h by h.ss03;
+  sub i by i.ss03;
+  sub j by j.ss03;
+  sub k by k.ss03;
+  sub l by l.ss03;
+  sub m by m.ss03;
+  sub n by n.ss03;
+  sub nine by nine.ss03;
+  sub o by o.ss03;
+  sub one by one.ss03;
+  sub p by p.ss03;
+  sub q by q.ss03;
+  sub r by r.ss03;
+  sub s by s.ss03;
+  sub seven by seven.ss03;
+  sub six by six.ss03;
+  sub t by t.ss03;
+  sub three by three.ss03;
+  sub two by two.ss03;
+  sub u by u.ss03;
+  sub v by v.ss03;
+  sub w by w.ss03;
+  sub x by x.ss03;
+  sub y by y.ss03;
+  sub z by z.ss03;
+  sub zero by zero.ss03;
+#< feature
+} ss03;

@@ -1,0 +1,216 @@
+feature calt {
+
+	@transformation0 = [a b c d e f g h i j k l m n o p q r s t u v w x y z zero one two three four five six seven eight nine];
+	@transformation1 = [a.ss01 b.ss01 c.ss01 d.ss01 e.ss01 f.ss01 g.ss01 h.ss01 i.ss01 j.ss01 k.ss01 l.ss01 m.ss01 n.ss01 o.ss01 p.ss01 q.ss01 r.ss01 s.ss01 t.ss01 u.ss01 v.ss01 w.ss01 x.ss01 y.ss01 z.ss01 zero.ss01 one.ss01 two.ss01 three.ss01 four.ss01 five.ss01 six.ss01 seven.ss01 eight.ss01 nine.ss01];
+	@transformation2 = [a.ss02 b.ss02 c.ss02 d.ss02 e.ss02 f.ss02 g.ss02 h.ss02 i.ss02 j.ss02 k.ss02 l.ss02 m.ss02 n.ss02 o.ss02 p.ss02 q.ss02 r.ss02 s.ss02 t.ss02 u.ss02 v.ss02 w.ss02 x.ss02 y.ss02 z.ss02 zero.ss02 one.ss02 two.ss02 three.ss02 four.ss02 five.ss02 six.ss02 seven.ss02 eight.ss02 nine.ss02];
+	@transformation3 = [a.ss03 b.ss03 c.ss03 d.ss03 e.ss03 f.ss03 g.ss03 h.ss03 i.ss03 j.ss03 k.ss03 l.ss03 m.ss03 n.ss03 o.ss03 p.ss03 q.ss03 r.ss03 s.ss03 t.ss03 u.ss03 v.ss03 w.ss03 x.ss03 y.ss03 z.ss03 zero.ss03 one.ss03 two.ss03 three.ss03 four.ss03 five.ss03 six.ss03 seven.ss03 eight.ss03 nine.ss03];
+
+	@state0 = [@transformation0 @transformation1 @transformation2 @transformation3];
+	@state1 = [@transformation1 @transformation2 @transformation3 @transformation0];
+	@state2 = [@transformation2 @transformation3 @transformation0 @transformation1];
+	@state3 = [@transformation3 @transformation0 @transformation1 @transformation2];
+
+	@partition0 = [c.ss01 c.ss02 d f.ss02 f.ss03 five.ss03 four h.ss03 i.ss02 j.ss03 k.ss03 l m.ss01 n nine nine.ss01 nine.ss03 o.ss02 one.ss03 p.ss01 p.ss02 p.ss03 q q.ss02 r.ss02 r.ss03 s.ss01 s.ss02 seven.ss02 six t.ss03 x.ss01 z.ss01 z.ss02 zero zero.ss03];
+	@partition1 = [a.ss02 a.ss03 b c.ss03 d.ss02 d.ss03 e e.ss01 e.ss03 eight eight.ss01 eight.ss03 f four.ss02 g g.ss01 h.ss02 i j.ss01 j.ss02 k l.ss02 m.ss03 one.ss01 p q.ss03 s six.ss01 six.ss02 six.ss03 three.ss02 v.ss02 w w.ss01 w.ss02 x];
+	@partition2 = [a.ss01 b.ss01 b.ss02 c d.ss01 e.ss02 five.ss01 five.ss02 four.ss03 g.ss02 i.ss03 k.ss01 k.ss02 l.ss01 l.ss03 m.ss02 n.ss01 n.ss03 o.ss01 one q.ss01 r.ss01 seven.ss03 t.ss01 t.ss02 two two.ss02 two.ss03 u u.ss02 v v.ss01 v.ss03 y z z.ss03];
+	@partition3 = [a b.ss03 eight.ss02 f.ss01 five four.ss01 g.ss03 h h.ss01 i.ss01 j m n.ss02 nine.ss02 o o.ss03 one.ss02 r s.ss03 seven seven.ss01 t three three.ss01 three.ss03 two.ss01 u.ss01 u.ss03 w.ss03 x.ss02 x.ss03 y.ss01 y.ss02 y.ss03 zero.ss01 zero.ss02];
+
+	@All = [a b c d e f g h i j k l m n o p q r s t u v w x y z zero one two three four five six seven eight nine a.ss01 b.ss01 c.ss01 d.ss01 e.ss01 f.ss01 g.ss01 h.ss01 i.ss01 j.ss01 k.ss01 l.ss01 m.ss01 n.ss01 o.ss01 p.ss01 q.ss01 r.ss01 s.ss01 t.ss01 u.ss01 v.ss01 w.ss01 x.ss01 y.ss01 z.ss01 zero.ss01 one.ss01 two.ss01 three.ss01 four.ss01 five.ss01 six.ss01 seven.ss01 eight.ss01 nine.ss01 a.ss02 b.ss02 c.ss02 d.ss02 e.ss02 f.ss02 g.ss02 h.ss02 i.ss02 j.ss02 k.ss02 l.ss02 m.ss02 n.ss02 o.ss02 p.ss02 q.ss02 r.ss02 s.ss02 t.ss02 u.ss02 v.ss02 w.ss02 x.ss02 y.ss02 z.ss02 zero.ss02 one.ss02 two.ss02 three.ss02 four.ss02 five.ss02 six.ss02 seven.ss02 eight.ss02 nine.ss02 a.ss03 b.ss03 c.ss03 d.ss03 e.ss03 f.ss03 g.ss03 h.ss03 i.ss03 j.ss03 k.ss03 l.ss03 m.ss03 n.ss03 o.ss03 p.ss03 q.ss03 r.ss03 s.ss03 t.ss03 u.ss03 v.ss03 w.ss03 x.ss03 y.ss03 z.ss03 zero.ss03 one.ss03 two.ss03 three.ss03 four.ss03 five.ss03 six.ss03 seven.ss03 eight.ss03 nine.ss03];
+
+	@skip = [@All];
+
+	lookup skip9_partition0 {
+		sub @partition3 @skip @skip @skip @skip @skip @skip @skip @skip @skip @state0' by @state1;
+	} skip9_partition0;
+
+	lookup skip9_partition1 {
+		sub @partition2 @skip @skip @skip @skip @skip @skip @skip @skip @skip @state1' by @state2;
+	} skip9_partition1;
+
+	lookup skip9_partition2 {
+		sub @partition1 @skip @skip @skip @skip @skip @skip @skip @skip @skip @state2' by @state3;
+	} skip9_partition2;
+
+	lookup skip9_partition3 {
+		sub @partition0 @skip @skip @skip @skip @skip @skip @skip @skip @skip @state3' by @state0;
+	} skip9_partition3;
+
+
+
+	lookup skip8_partition0 {
+		sub @partition3 @skip @skip @skip @skip @skip @skip @skip @skip @state0' by @state1;
+	} skip8_partition0;
+
+	lookup skip8_partition1 {
+		sub @partition2 @skip @skip @skip @skip @skip @skip @skip @skip @state1' by @state2;
+	} skip8_partition1;
+
+	lookup skip8_partition2 {
+		sub @partition1 @skip @skip @skip @skip @skip @skip @skip @skip @state2' by @state3;
+	} skip8_partition2;
+
+	lookup skip8_partition3 {
+		sub @partition0 @skip @skip @skip @skip @skip @skip @skip @skip @state3' by @state0;
+	} skip8_partition3;
+
+
+
+	lookup skip7_partition0 {
+		sub @partition3 @skip @skip @skip @skip @skip @skip @skip @state0' by @state1;
+	} skip7_partition0;
+
+	lookup skip7_partition1 {
+		sub @partition2 @skip @skip @skip @skip @skip @skip @skip @state1' by @state2;
+	} skip7_partition1;
+
+	lookup skip7_partition2 {
+		sub @partition1 @skip @skip @skip @skip @skip @skip @skip @state2' by @state3;
+	} skip7_partition2;
+
+	lookup skip7_partition3 {
+		sub @partition0 @skip @skip @skip @skip @skip @skip @skip @state3' by @state0;
+	} skip7_partition3;
+
+
+
+	lookup skip6_partition0 {
+		sub @partition3 @skip @skip @skip @skip @skip @skip @state0' by @state1;
+	} skip6_partition0;
+
+	lookup skip6_partition1 {
+		sub @partition2 @skip @skip @skip @skip @skip @skip @state1' by @state2;
+	} skip6_partition1;
+
+	lookup skip6_partition2 {
+		sub @partition1 @skip @skip @skip @skip @skip @skip @state2' by @state3;
+	} skip6_partition2;
+
+	lookup skip6_partition3 {
+		sub @partition0 @skip @skip @skip @skip @skip @skip @state3' by @state0;
+	} skip6_partition3;
+
+
+
+	lookup skip5_partition0 {
+		sub @partition3 @skip @skip @skip @skip @skip @state0' by @state1;
+	} skip5_partition0;
+
+	lookup skip5_partition1 {
+		sub @partition2 @skip @skip @skip @skip @skip @state1' by @state2;
+	} skip5_partition1;
+
+	lookup skip5_partition2 {
+		sub @partition1 @skip @skip @skip @skip @skip @state2' by @state3;
+	} skip5_partition2;
+
+	lookup skip5_partition3 {
+		sub @partition0 @skip @skip @skip @skip @skip @state3' by @state0;
+	} skip5_partition3;
+
+
+
+	lookup skip4_partition0 {
+		sub @partition3 @skip @skip @skip @skip @state0' by @state1;
+	} skip4_partition0;
+
+	lookup skip4_partition1 {
+		sub @partition2 @skip @skip @skip @skip @state1' by @state2;
+	} skip4_partition1;
+
+	lookup skip4_partition2 {
+		sub @partition1 @skip @skip @skip @skip @state2' by @state3;
+	} skip4_partition2;
+
+	lookup skip4_partition3 {
+		sub @partition0 @skip @skip @skip @skip @state3' by @state0;
+	} skip4_partition3;
+
+
+
+	lookup skip3_partition0 {
+		sub @partition3 @skip @skip @skip @state0' by @state1;
+	} skip3_partition0;
+
+	lookup skip3_partition1 {
+		sub @partition2 @skip @skip @skip @state1' by @state2;
+	} skip3_partition1;
+
+	lookup skip3_partition2 {
+		sub @partition1 @skip @skip @skip @state2' by @state3;
+	} skip3_partition2;
+
+	lookup skip3_partition3 {
+		sub @partition0 @skip @skip @skip @state3' by @state0;
+	} skip3_partition3;
+
+
+
+	lookup skip2_partition0 {
+		sub @partition3 @skip @skip @state0' by @state1;
+	} skip2_partition0;
+
+	lookup skip2_partition1 {
+		sub @partition2 @skip @skip @state1' by @state2;
+	} skip2_partition1;
+
+	lookup skip2_partition2 {
+		sub @partition1 @skip @skip @state2' by @state3;
+	} skip2_partition2;
+
+	lookup skip2_partition3 {
+		sub @partition0 @skip @skip @state3' by @state0;
+	} skip2_partition3;
+
+
+
+	lookup skip1_partition0 {
+		sub @partition3 @skip @state0' by @state1;
+	} skip1_partition0;
+
+	lookup skip1_partition1 {
+		sub @partition2 @skip @state1' by @state2;
+	} skip1_partition1;
+
+	lookup skip1_partition2 {
+		sub @partition1 @skip @state2' by @state3;
+	} skip1_partition2;
+
+	lookup skip1_partition3 {
+		sub @partition0 @skip @state3' by @state0;
+	} skip1_partition3;
+
+
+
+	lookup skip0_partition0 {
+		sub @partition3  @state0' by @state1;
+	} skip0_partition0;
+
+	lookup skip0_partition1 {
+		sub @partition2  @state1' by @state2;
+	} skip0_partition1;
+
+	lookup skip0_partition2 {
+		sub @partition1  @state2' by @state3;
+	} skip0_partition2;
+
+	lookup skip0_partition3 {
+		sub @partition0  @state3' by @state0;
+	} skip0_partition3;
+
+    # Cycle through bullet variations to prevent repetition
+    lookup bullet_cycle {
+        sub bullet bullet' by bullet.ss01;
+        sub bullet.ss01 bullet' by bullet.ss02;
+        sub bullet.ss02 bullet' by bullet.ss03;
+        sub bullet.ss03 bullet' by bullet.ss04;
+        sub bullet.ss04 bullet' by bullet.ss05;
+        sub bullet.ss05 bullet' by bullet.ss06;
+        sub bullet.ss06 bullet' by bullet.ss07;
+        sub bullet.ss07 bullet' by bullet.ss08;
+        sub bullet.ss08 bullet' by bullet.ss09;
+        sub bullet.ss09 bullet' by bullet.ss10;
+        sub bullet.ss10 bullet' by bullet;
+    } bullet_cycle;
+
+
+} calt;

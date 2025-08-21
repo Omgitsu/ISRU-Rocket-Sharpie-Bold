@@ -1,0 +1,10 @@
+feature liga {
+	sub bracketleft O B I bracketright by O_B_I;
+	sub bracketleft N I K E C R A F T bracketright by N_I_K_E_C_R_A_F_T;
+	sub bracketleft I S R U bracketright by I_S_R_U;
+	sub bracketleft N I K E L O G O bracketright by NIKELOGO;
+	sub bracketleft O U T A N D B A C K bracketright by OUT_AND_BACK;
+	sub bracketleft T E N bracketright by TEN_FREE_THROWS;
+	sub bracketleft W A L L bracketright by WALL_DRAWING;
+	sub bracketleft R E A D bracketright by READ_BEFORE_BED;
+} liga;
