@@ -32,6 +32,9 @@ Special ligature sequences automatically replace standard glyphs:
 - `[WALL]`
 - `[READ]`
 
+> [!IMPORTANT]
+> Brackets and caps are required to trigger the ligature icon replacements.  So you are typing `[ISRU]` and not just `ISRU`
+
 
 ### Bullet Points
 ![TEN BULLETS](documentation/img/2x/ten-bullets@2x.png)
