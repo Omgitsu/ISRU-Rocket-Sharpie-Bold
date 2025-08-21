@@ -19,6 +19,7 @@ The font includes intelligent contextual alternates that automatically vary lett
 
 This creates natural-looking text variation without manual intervention.
 
+![TEN BULLETS](documentation/img/2x/ICONS2x.png)
 ### Standard Ligatures
 Special ligature sequences automatically replace standard glyphs:
 
