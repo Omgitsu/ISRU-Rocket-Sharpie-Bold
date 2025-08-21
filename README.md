@@ -1,3 +1,5 @@
+![ISRU Rocket Sharpie Bold](documentation/img/2x/ISRU-TITLE@2x.png)
+
 # ISRU Rocket Sharpie Bold
 
 **"Inspired" by Tom Sachs' handwriting**
