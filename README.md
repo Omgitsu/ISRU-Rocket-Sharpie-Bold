@@ -19,8 +19,8 @@ The font includes intelligent contextual alternates that automatically vary lett
 
 This creates natural-looking text variation without manual intervention.
 
-![LIGATURES](documentation/img/2x/ICONS@2x.png)
 ### Standard Ligatures
+![LIGATURES](documentation/img/2x/ICONS@2x.png)
 Special ligature sequences automatically replace standard glyphs:
 
 - `[ISRU]`
@@ -33,8 +33,8 @@ Special ligature sequences automatically replace standard glyphs:
 - `[READ]`
 
 
-![TEN BULLETS](documentation/img/2x/ten-bullets@2x.png)
 ### Bullet Points
+![TEN BULLETS](documentation/img/2x/ten-bullets@2x.png)
 The font includes 10 bullet points (•) because of course there are.
 - **macOS**: Option + 8
 - **Windows**: Alt + 0149 (using numeric keypad)
@@ -106,6 +106,11 @@ All glyphs are based on scans of Tom Sachs' works. Some characters are "franken-
 
 Pull requests are welcome, especially if you have scans of the franken-glyphs mentioned above. Help us improve the authenticity of the currency symbols, fractions, and uncommon punctuation marks.
 
+## Sources
+
+The font has been created with FontLab 8.  A Glyphs export is also provided - but it is untested because I don't have Glyphs. 
+
+
 ### Building the `calt` from source
 
 1. Open the source files in the `/scripts` directory
@@ -127,5 +132,14 @@ This font pays homage to Tom Sachs' distinctive Sharpie style, for artistic purp
 ![OUTPUT BEFORE INPUT](documentation/img/2x/OBI@2x.png)
 
 *For ISRU summercamp and all your space program typography needs.*
+
+
+## Further Links
+
+- **[ISRU Summer Camp](https://isrucamp.com/)** - The space program that inspired this font
+- **[Nikecraft](https://nikecraft)** - Tom Sachs' collaborative project with Nike
+- **[Tom Sachs Studio](https://www.tomsachs.com/)** - Official studio website
+- **[Tom Sachs Store](https://store.tomsachs.com/)** - Official merchandise and works
+
 
 **Disclaimer**: Not officially affiliated or endorsed by Tom Sachs or his studio or Nike or whatever. This font will remain available for as long as the lawyers let me. Which is hopefully forever, but you know how lawyers are about things "inspired" by other people's work. Download it while you can! 🚀

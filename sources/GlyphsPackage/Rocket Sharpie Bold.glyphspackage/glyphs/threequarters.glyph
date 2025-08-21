@@ -1,0 +1,31 @@
+{
+glyphname = threequarters;
+rightMetricsKey = "=|";
+layers = (
+{
+layerId = "6DC978D1-58EC-4728-9C90-896FC59D3452";
+shapes = (
+{
+alignment = -1;
+pos = (143,386);
+ref = three;
+scale = (0.522,0.522);
+},
+{
+alignment = -1;
+pos = (556,29);
+ref = four;
+scale = (0.468,0.468);
+},
+{
+alignment = -1;
+pos = (207,23);
+ref = slash;
+scale = (0.832,1.);
+}
+);
+width = 1237;
+}
+);
+unicode = 190;
+}

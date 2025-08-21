@@ -1,0 +1,27 @@
+{
+glyphname = periodcentered;
+rightMetricsKey = "=|";
+layers = (
+{
+layerId = "6DC978D1-58EC-4728-9C90-896FC59D3452";
+shapes = (
+{
+closed = 1;
+nodes = (
+(101,91,o),
+(188,144,o),
+(222,79,c),
+(246,5,o),
+(141,-77,o),
+(79,-22,cs),
+(53,1,o),
+(36,24,o),
+(67,52,c)
+);
+}
+);
+width = 276;
+}
+);
+unicode = 183;
+}

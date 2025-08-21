@@ -1,0 +1,16 @@
+{
+glyphname = w.ss03;
+rightMetricsKey = "=|";
+layers = (
+{
+layerId = "6DC978D1-58EC-4728-9C90-896FC59D3452";
+shapes = (
+{
+alignment = -1;
+ref = W;
+}
+);
+width = 1568;
+}
+);
+}

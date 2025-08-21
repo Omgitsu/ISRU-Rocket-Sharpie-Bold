@@ -1,0 +1,11 @@
+{
+glyphname = space;
+rightMetricsKey = "=|";
+layers = (
+{
+layerId = "6DC978D1-58EC-4728-9C90-896FC59D3452";
+width = 1000;
+}
+);
+unicode = 32;
+}

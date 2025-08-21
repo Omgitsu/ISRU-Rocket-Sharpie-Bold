@@ -1,0 +1,20 @@
+{
+glyphname = f;
+rightMetricsKey = "=|";
+layers = (
+{
+layerId = "6DC978D1-58EC-4728-9C90-896FC59D3452";
+shapes = (
+{
+alignment = -1;
+angle = -2.12;
+pos = (2,36);
+ref = f.ss02;
+scale = (0.929,0.929);
+}
+);
+width = 1090;
+}
+);
+unicode = 102;
+}

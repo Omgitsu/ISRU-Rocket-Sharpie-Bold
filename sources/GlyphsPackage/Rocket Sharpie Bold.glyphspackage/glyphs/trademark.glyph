@@ -1,0 +1,30 @@
+{
+glyphname = trademark;
+rightMetricsKey = "=|";
+layers = (
+{
+guides = (
+{
+position = "{0, 362}";
+}
+);
+layerId = "6DC978D1-58EC-4728-9C90-896FC59D3452";
+shapes = (
+{
+alignment = -1;
+pos = (157,362);
+ref = T;
+scale = (0.477,0.477);
+},
+{
+alignment = -1;
+pos = (414,397);
+ref = M;
+scale = (0.477,0.477);
+}
+);
+width = 1193;
+}
+);
+unicode = 8482;
+}
