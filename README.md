@@ -4,7 +4,7 @@
 
 **"Inspired" by Tom Sachs' handwriting**
 
-A dynamic display font useful for ISRU summercamp and beyond, featuring contextual alternates that bring the organic variability of handwritten text to digital typography.
+A dynamic display font useful for ISRU summercamp and beyond, featuring contextual alternates that bring the organic variability of Tom's Sharpie to digital typography.
 
 **Created by @omgitsu**  
 **S/N: 2025.063.27251**
@@ -19,7 +19,7 @@ The font includes intelligent contextual alternates that automatically vary lett
 
 This creates natural-looking text variation without manual intervention.
 
-![TEN BULLETS](documentation/img/2x/ICONS2x.png)
+![LIGATURES](documentation/img/2x/ICONS@2x.png)
 ### Standard Ligatures
 Special ligature sequences automatically replace standard glyphs:
 
@@ -106,11 +106,10 @@ All glyphs are based on scans of Tom Sachs' works. Some characters are "franken-
 
 Pull requests are welcome, especially if you have scans of the franken-glyphs mentioned above. Help us improve the authenticity of the currency symbols, fractions, and uncommon punctuation marks.
 
-### Building from Source
+### Building the `calt` from source
 
-1. Install FontLab 8
-2. Open the source files in the `/scripts` directory
-3. Run the Node.js compilation script:
+1. Open the source files in the `/scripts` directory
+2. Run the Node.js compilation script:
    ```bash
    node compiler.js > calt.fea
    ```
@@ -121,7 +120,7 @@ This font is released under the [SIL Open Font License 1.1](https://scripts.sil.
 
 ## Inspiration
 
-This font pays homage to Tom Sachs' distinctive handwriting style, capturing the raw energy and purposeful imperfection that characterizes his artistic practice. Perfect for projects that need an authentic, handcrafted aesthetic.
+This font pays homage to Tom Sachs' distinctive Sharpie style, for artistic purposes, and for various Summer Camp challenges. Perfect for projects that need an authentic, handcrafted aesthetic - I guess.
 
 ---
 
@@ -129,4 +128,4 @@ This font pays homage to Tom Sachs' distinctive handwriting style, capturing the
 
 *For ISRU summercamp and all your space program typography needs.*
 
-**Disclaimer**: This font will remain available for as long as the lawyers let us. Which is hopefully forever, but you know how lawyers are about things "inspired" by other people's work. Download it while you can! 🚀
+**Disclaimer**: Not officially affiliated or endorsed by Tom Sachs or his studio or Nike or whatever. This font will remain available for as long as the lawyers let me. Which is hopefully forever, but you know how lawyers are about things "inspired" by other people's work. Download it while you can! 🚀
