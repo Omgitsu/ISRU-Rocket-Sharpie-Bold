@@ -63,8 +63,7 @@ All glyphs are based on scans of Tom Sachs' works. Some characters are "franken-
 ```css
 @font-face {
   font-family: 'ISRU Rocket Sharpie Bold';
-  src: url('path/to/ISRURocketSharpieBold.woff2') format('woff2'),
-       url('path/to/ISRURocketSharpieBold.woff') format('woff');
+  src: url('path/to/ISRURocketSharpieBold.woff2') format('woff2'));
   font-weight: bold;
   font-style: normal;
 }
