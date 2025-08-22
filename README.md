@@ -31,6 +31,7 @@ Special ligature sequences automatically replace standard glyphs:
 - `[TEN]`
 - `[WALL]`
 - `[READ]`
+- `[EXCELLENCE]`
 - `[MEDICINE]`
 
 > [!IMPORTANT]
