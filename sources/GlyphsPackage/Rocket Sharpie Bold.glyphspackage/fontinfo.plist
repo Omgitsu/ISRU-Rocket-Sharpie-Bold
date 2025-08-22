@@ -1,7 +1,8 @@
 {
 .formatVersion = 3;
 DisplayStrings = (
-"½"
+"/EXCELLENCE",
+"/OUT_AND_BACK/TEN_FREE_THROWS/WALL_DRAWING/READ_BEFORE_BED/MEDICINE"
 );
 familyName = ISRU;
 customParameters = (
@@ -291,7 +292,9 @@ six.ss03,
 seven.ss03,
 eight.ss03,
 nine.ss03,
-zero.ss03
+zero.ss03,
+MEDICINE,
+EXCELLENCE
 );
 }
 );
@@ -339,7 +342,9 @@ code = "sub bracketleft O B I bracketright by O_B_I;
 	sub bracketleft O U T A N D B A C K bracketright by OUT_AND_BACK;
 	sub bracketleft T E N bracketright by TEN_FREE_THROWS;
 	sub bracketleft W A L L bracketright by WALL_DRAWING;
-	sub bracketleft R E A D bracketright by READ_BEFORE_BED;";
+	sub bracketleft R E A D bracketright by READ_BEFORE_BED;
+	sub bracketleft M E D I C I N E bracketright by MEDICINE;
+	sub bracketleft E X C E L L E N C E bracketright by EXCELLENCE;";
 tag = liga;
 },
 {
@@ -778,7 +783,7 @@ guides = (
 position = "{0, 250}";
 }
 );
-id = "6DC978D1-58EC-4728-9C90-896FC59D3452";
+id = "8796DA50-D6B7-4313-95AF-F4283B991C1A";
 metricValues = (
 {
 pos = 750;
@@ -801,7 +806,7 @@ name = RocketSharpieFinePoint;
 }
 );
 kerningLTR = {
-"6DC978D1-58EC-4728-9C90-896FC59D3452" = {
+"8796DA50-D6B7-4313-95AF-F4283B991C1A" = {
 };
 };
 metrics = (
@@ -848,7 +853,7 @@ value = WDDG;
 unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
-"6DC978D1-58EC-4728-9C90-896FC59D3452" = {
+"8796DA50-D6B7-4313-95AF-F4283B991C1A" = {
 };
 };
 };

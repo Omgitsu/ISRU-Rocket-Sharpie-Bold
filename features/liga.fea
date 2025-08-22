@@ -7,4 +7,6 @@ feature liga {
 	sub bracketleft T E N bracketright by TEN_FREE_THROWS;
 	sub bracketleft W A L L bracketright by WALL_DRAWING;
 	sub bracketleft R E A D bracketright by READ_BEFORE_BED;
+	sub bracketleft M E D I C I N E bracketright by MEDICINE;
+	sub bracketleft E X C E L L E N C E bracketright by EXCELLENCE;
 } liga;

@@ -3,7 +3,7 @@ glyphname = b.ss01;
 rightMetricsKey = "=|";
 layers = (
 {
-layerId = "6DC978D1-58EC-4728-9C90-896FC59D3452";
+layerId = "8796DA50-D6B7-4313-95AF-F4283B991C1A";
 shapes = (
 {
 closed = 1;
@@ -53,7 +53,7 @@ nodes = (
 (832,448,cs),
 (808,411,o),
 (777,389,o),
-(755,376,cs),
+(754.645,375.503,cs),
 (724,357,o),
 (679,336,o),
 (708,316,c),

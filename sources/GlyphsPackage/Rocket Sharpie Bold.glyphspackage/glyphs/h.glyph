@@ -3,7 +3,7 @@ glyphname = h;
 rightMetricsKey = "=|";
 layers = (
 {
-layerId = "6DC978D1-58EC-4728-9C90-896FC59D3452";
+layerId = "8796DA50-D6B7-4313-95AF-F4283B991C1A";
 shapes = (
 {
 closed = 1;
@@ -46,7 +46,7 @@ nodes = (
 (674,10,c),
 (611,73,o),
 (706,249,o),
-(576,246,cs),
+(575.635,246.07,cs),
 (528,245,o),
 (474,267,o),
 (455,240,c)

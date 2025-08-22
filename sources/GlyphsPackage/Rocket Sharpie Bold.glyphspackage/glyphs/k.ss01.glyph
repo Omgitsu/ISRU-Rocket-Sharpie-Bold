@@ -3,7 +3,7 @@ glyphname = k.ss01;
 rightMetricsKey = "=|";
 layers = (
 {
-layerId = "6DC978D1-58EC-4728-9C90-896FC59D3452";
+layerId = "8796DA50-D6B7-4313-95AF-F4283B991C1A";
 shapes = (
 {
 closed = 1;
@@ -56,7 +56,7 @@ nodes = (
 (351,670,cs),
 (386,670,o),
 (427,613,o),
-(427,540,cs),
+(427,540.347,cs),
 (427,529,o),
 (428,485,o),
 (450,470,c),

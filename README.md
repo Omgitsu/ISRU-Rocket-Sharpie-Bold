@@ -31,6 +31,7 @@ Special ligature sequences automatically replace standard glyphs:
 - `[TEN]`
 - `[WALL]`
 - `[READ]`
+- `[MEDICINE]`
 
 > [!IMPORTANT]
 > Brackets and caps are required to trigger the ligature icon replacements.  So you are typing `[ISRU]` and not just `ISRU`

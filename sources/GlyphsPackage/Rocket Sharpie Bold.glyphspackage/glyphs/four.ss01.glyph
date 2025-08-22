@@ -3,7 +3,7 @@ glyphname = four.ss01;
 rightMetricsKey = "=|";
 layers = (
 {
-layerId = "6DC978D1-58EC-4728-9C90-896FC59D3452";
+layerId = "8796DA50-D6B7-4313-95AF-F4283B991C1A";
 shapes = (
 {
 closed = 1;
@@ -19,7 +19,7 @@ nodes = (
 (740,437,cs),
 (749,423,o),
 (821,442,o),
-(832,368,cs),
+(832.319,367.617,cs),
 (842,304,o),
 (786,312,o),
 (740,320,cs),

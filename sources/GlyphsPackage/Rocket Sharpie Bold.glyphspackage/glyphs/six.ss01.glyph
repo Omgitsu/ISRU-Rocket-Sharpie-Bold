@@ -3,7 +3,7 @@ glyphname = six.ss01;
 rightMetricsKey = "=|";
 layers = (
 {
-layerId = "6DC978D1-58EC-4728-9C90-896FC59D3452";
+layerId = "8796DA50-D6B7-4313-95AF-F4283B991C1A";
 shapes = (
 {
 closed = 1;
@@ -30,7 +30,7 @@ nodes = (
 (468,629,cs),
 (526,678,o),
 (658,700,o),
-(656,633,cs),
+(655.678,632.657,cs),
 (653,555,o),
 (478,541,o),
 (444,386,c)

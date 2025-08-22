@@ -3,7 +3,7 @@ glyphname = z.ss01;
 rightMetricsKey = "=|";
 layers = (
 {
-layerId = "C3EBCE8B-B211-40B2-A21A-0AE84F5D58E8";
+layerId = "9F82FD62-6BE5-49DE-A05E-9D9B95DBEA30";
 name = Regular;
 shapes = (
 {
@@ -14,7 +14,7 @@ nodes = (
 (418,674,c),
 (561,700,o),
 (718,629,o),
-(698,488,cs),
+(697.517,488.026,cs),
 (667,278,o),
 (258,19,o),
 (745,171,cs),
